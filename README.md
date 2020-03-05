@@ -12,5 +12,5 @@ turbidity, and total dissolved solids. Location data is provided by an Adafruit 
 module. A data reading is taken every 30 seconds and streamed live. Every hour a
 reading is sent to a database for storage.
 
-Both live and historic readings are viewed using the SmartBuoy Dashbaord.
+Both live and historic readings are viewed using the SmartBuoy GUI.
 
