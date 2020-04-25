@@ -7,12 +7,14 @@ SmartBuoy was designed as a fully self-contained water quality probe, able to be
 
 The device is powered by 5-volt lithium ion battery, recharged by an onboard solar panel and includes sensors to measure                 electrical conductivity, pH, temperature, turbidity, and total dissolved solids. Location data is provided by an Adafruit               GPS module. A data reading is taken every 15 seconds and streamed live. Every hour a reading is sent to a database for                   storage.  
               
-SCOPE: 	      
+SCOPE: 	 
+
 This portion of the project provides a dashboard to retrieve and view the data readings, both live and historic. In                     addition to the dashboard, a second application was developed to simulate the operation of the SmartBuoy. This allows for               testing and review of the dashboard application without requiring the deployment of the device. This is also beneficial in               situations where development and testing are done without access to the SmartBuoy. In addition to the dashboard and                     simulator, a database has been created for data storage.
 
 Dweet.io is used as an intermediary for the retrieval of  live updates from the device.  In this case, the simulator                     generates the reading data and sends it to Dweet.io using an Http client. Dweet.io stores the five most recent data                     readings. The dashboard then retrieves the most recent reading, also using an Http client. These readings are sent and                   retrieved every 15 seconds. Once per hour a reading is also sent to the database for storage. The database was built using 		   Microsoft Azure and is accessed using LINQ – part of the Microsoft.NET Framework.           
 
 OPERATION: 	  
+
 After opening the Dashboard application you will be presented with the interface. Five main areas will be visible: gauge                 cluster, map, data table, line chart, and controls. There are two datetime pickers in the controls section; one for the                 start date and one for the end date. Setting these values will provide the date range of the reading to be retrieved from               the database. 
 
 Clicking the button marked “GET DATA” will execute the retrieval. You will see the data appear as rows in the data table                 and in the line chart. You will also see the locations of each reading marked on the map. A row of the data table will be               highlighted in green; the values of this row’s cells are mapped to the gauges. Use the range slider to move through the                 rows of data. You will see the gauge values change to match the newly highlighted row. The cell values of the selected row               will also be the final data added to the map and chart. 
