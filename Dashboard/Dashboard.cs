@@ -85,6 +85,16 @@ namespace SmartBuoyDashboard
                 {
                     dataHistory.Columns.Clear(); // clear the DGV
 
+                    BuoyMap.Map.Children.Clear(); // clear the map
+
+                    clearGauges(); // clear gauges
+
+                    // clear the chart
+                    foreach (var series in lineChart.Series)
+                    {
+                        series.Points.Clear();
+                    }
+
                     // retreive rows from the database and add to the datagridview
                     dataHistory.DataSource = from read in sb.GetTable<Reading>() where read.readingDT >= dtStart.Value && read.readingDT <= dtEnd.Value orderby read.readingDT ascending select read; 
 
@@ -98,7 +108,6 @@ namespace SmartBuoyDashboard
                         dataHistory.Sort(dataHistory.Columns.GetFirstColumn(0), 0); // sort rows by dateTime
 
                         BuoyMap.Map.ZoomLevel = 7; // set map zoom
-                        BuoyMap.Map.Children.Clear(); // clear the map
 
                         // Add pins tom the map
                         for (int i = 0; i < dataHistory.Rows.Count - 1; i++)
@@ -161,6 +170,7 @@ namespace SmartBuoyDashboard
                 btnHistoric.Refresh();
 
                 lblGet.Visible = true; // alerts user of connection to SmartBuoy
+                rangeSlider.Value = 0;
                 rangeSlider.Enabled = false; // disable slider
 
                 BuoyMap.Map.ZoomLevel = 7; // set map zoom
