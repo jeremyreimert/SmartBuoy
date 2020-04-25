@@ -1,0 +1,16 @@
+Time: 28/03/2020 08:49:29 PM
+-----------------------------------------------------------
+Message: Attempted to divide by zero.
+StackTrace:    at SmartBuoySimulator.SimulatedReading.GetReading() in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoySimulator\SimulatedReading.cs:line 71
+Source: SmartBuoySimulator
+TargetSite: Void GetReading()
+-----------------------------------------------------------
+
+Time: 28/03/2020 08:55:18 PM
+-----------------------------------------------------------
+Message: Attempted to divide by zero.
+StackTrace:    at SmartBuoySimulator.SimulatedReading.GetReading() in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoySimulator\SimulatedReading.cs:line 71
+Source: SmartBuoySimulator
+TargetSite: Void GetReading()
+-----------------------------------------------------------
+
