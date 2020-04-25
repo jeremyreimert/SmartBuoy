@@ -1,0 +1,161 @@
+Time: 24/04/2020 09:27:13 PM
+-----------------------------------------------------------
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at SmartBuoyGUI.dashboard.checkLimits(Int32 row) in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 517
+   at SmartBuoyGUI.dashboard.btnHistoric_Click(Object sender, EventArgs e) in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 113
+Source: mscorlib
+TargetSite: System.Object get_Item(Int32)
+-----------------------------------------------------------
+
+Time: 24/04/2020 09:29:36 PM
+-----------------------------------------------------------
+Message: Value of '1165' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+StackTrace:    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at SmartBuoyGUI.dashboard.setGauges() in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 352
+Source: System.Windows.Forms
+TargetSite: Void set_Value(Int32)
+-----------------------------------------------------------
+
+Time: 24/04/2020 09:30:02 PM
+-----------------------------------------------------------
+Message: Value of '1034' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+StackTrace:    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at SmartBuoyGUI.dashboard.setGauges() in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 352
+Source: System.Windows.Forms
+TargetSite: Void set_Value(Int32)
+-----------------------------------------------------------
+
+Time: 24/04/2020 09:30:03 PM
+-----------------------------------------------------------
+Message: Value of '104' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+StackTrace:    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at SmartBuoyGUI.dashboard.setGauges() in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 352
+Source: System.Windows.Forms
+TargetSite: Void set_Value(Int32)
+-----------------------------------------------------------
+
+Time: 24/04/2020 09:30:06 PM
+-----------------------------------------------------------
+Message: Value of '235' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+StackTrace:    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at SmartBuoyGUI.dashboard.setGauges() in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 352
+Source: System.Windows.Forms
+TargetSite: Void set_Value(Int32)
+-----------------------------------------------------------
+
+Time: 24/04/2020 09:30:13 PM
+-----------------------------------------------------------
+Message: Value of '1964' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+StackTrace:    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at SmartBuoyGUI.dashboard.setGauges() in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 352
+Source: System.Windows.Forms
+TargetSite: Void set_Value(Int32)
+-----------------------------------------------------------
+
+Time: 24/04/2020 09:30:14 PM
+-----------------------------------------------------------
+Message: Value of '1296' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+StackTrace:    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at SmartBuoyGUI.dashboard.setGauges() in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 352
+Source: System.Windows.Forms
+TargetSite: Void set_Value(Int32)
+-----------------------------------------------------------
+
+Time: 24/04/2020 09:30:15 PM
+-----------------------------------------------------------
+Message: Value of '441' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+StackTrace:    at System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   at SmartBuoyGUI.dashboard.setGauges() in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 352
+Source: System.Windows.Forms
+TargetSite: Void set_Value(Int32)
+-----------------------------------------------------------
+
+Time: 25/04/2020 12:19:03 AM
+-----------------------------------------------------------
+Message: The type initializer for 'SmartBuoyGUI.SmartBuoyDB' threw an exception.
+StackTrace:    at SmartBuoyGUI.SmartBuoyDB..ctor()
+   at SmartBuoyGUI.dashboard.btnHistoric_Click(Object sender, EventArgs e) in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 70
+Source: SmartBuoyGUI
+TargetSite: Void .ctor()
+-----------------------------------------------------------
+
+Time: 25/04/2020 12:29:33 AM
+-----------------------------------------------------------
+Message: The type initializer for 'SmartBuoyGUI.SmartBuoyDB' threw an exception.
+StackTrace:    at SmartBuoyGUI.SmartBuoyDB..ctor()
+   at SmartBuoyGUI.dashboard.btnHistoric_Click(Object sender, EventArgs e) in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 71
+Source: SmartBuoyGUI
+TargetSite: Void .ctor()
+-----------------------------------------------------------
+
+Time: 25/04/2020 12:31:21 AM
+-----------------------------------------------------------
+Message: Failed to decrypt using provider 'RsaProtectedConfigurationProvider'. Error message from the provider: The RSA key container could not be opened. (C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\bin\Debug\SmartBuoyGUI.exe.Config line 7)
+StackTrace:    at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   at SmartBuoyGUI.SmartBuoyDB..ctor() in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\SmartBouyDB.cs:line 14
+   at SmartBuoyGUI.dashboard.btnHistoric_Click(Object sender, EventArgs e) in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 71
+Source: System.Configuration
+TargetSite: System.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+-----------------------------------------------------------
+
+Time: 25/04/2020 12:31:43 AM
+-----------------------------------------------------------
+Message: Failed to decrypt using provider 'RsaProtectedConfigurationProvider'. Error message from the provider: The RSA key container could not be opened. (C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\bin\Debug\SmartBuoyGUI.exe.Config line 7)
+StackTrace:    at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   at SmartBuoyGUI.SmartBuoyDB..ctor() in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\SmartBouyDB.cs:line 14
+   at SmartBuoyGUI.dashboard.btnHistoric_Click(Object sender, EventArgs e) in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 71
+Source: System.Configuration
+TargetSite: System.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+-----------------------------------------------------------
+
+Time: 25/04/2020 12:32:25 AM
+-----------------------------------------------------------
+Message: The type initializer for 'SmartBuoyGUI.SmartBuoyDB' threw an exception.
+StackTrace:    at SmartBuoyGUI.SmartBuoyDB..ctor()
+   at SmartBuoyGUI.dashboard.btnHistoric_Click(Object sender, EventArgs e) in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 71
+Source: SmartBuoyGUI
+TargetSite: Void .ctor()
+-----------------------------------------------------------
+
+Time: 25/04/2020 12:56:56 AM
+-----------------------------------------------------------
+Message: Failed to decrypt using provider 'RsaProtectedConfigurationProvider'. Error message from the provider: The RSA key container could not be opened. (C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\bin\Debug\SmartBuoyGUI.exe.Config line 7)
+StackTrace:    at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   at SmartBuoyGUI.SmartBuoyDB..ctor() in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\SmartBouyDB.cs:line 17
+   at SmartBuoyGUI.dashboard.btnHistoric_Click(Object sender, EventArgs e) in C:\Users\jerem\OneDrive\Desktop\School\Spring 2020\SmartBuoy\SmartBuoyDashboard\Dashboard.cs:line 71
+Source: System.Configuration
+TargetSite: System.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+-----------------------------------------------------------
+
